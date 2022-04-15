@@ -1,0 +1,27 @@
+{
+  "name": "playwright_demo_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Andreytvr/playwright_demo_tests",
+  "author": "Andrey Petukhov <andreytvr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint:ts": "eslint --fix --ext .js,.jsx,.ts,.tsx ",
+    "test:chromium": "yarn playwright test --project=Chromium",
+    "test:firefox": "yarn playwright test --project=Fierfox",
+    "test:webkit": "yarn playwright test --project=Webkit"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.21.0",
+    "allure-playwright": "^2.0.0-beta.15",
+    "typescript": "^4.6.3"
+  }
+}

@@ -1,1 +1,1 @@
-Demo project with UI tests on Playwrightv
+Demo project with UI tests on Playwright
