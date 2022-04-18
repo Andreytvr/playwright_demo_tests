@@ -10,7 +10,7 @@ test.use({
   storageState: "files/cookies.json",
 });
 
-test.describe("Buy product tests", () => {
+test.describe("Products tests", () => {
   let inventoryPage: InventoryPage;
   let productPage: ProductPage;
   let cartPage: CartPage;
