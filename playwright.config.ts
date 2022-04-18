@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
     screenshot: "only-on-failure",
     video: "retain-on-failure",
     headless: true,
-    viewport: { width: 1920, height: 1280 },
+    viewport: { width: 1920, height: 1080 },
   },
   projects: [
     {
@@ -29,7 +29,6 @@ const config: PlaywrightTestConfig = {
     },
   ],
   reporter: [["list"], ["allure-playwright"]],
-  fullyParallel: true,
 };
 
 export default config;
